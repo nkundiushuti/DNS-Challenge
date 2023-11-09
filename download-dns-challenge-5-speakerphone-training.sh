@@ -163,9 +163,10 @@ BLOB_NAMES=(
 
 AZURE_URL="https://dns4public.blob.core.windows.net/dns4archive/datasets_fullband"
 
-OUTPUT_PATH="./datasets_fullband"
+OUTPUT_PATH="./"
+DPATH="./datasets_fullband"
 
-mkdir -p $OUTPUT_PATH/{clean_fullband,noise_fullband}
+mkdir -p $DPATH/{clean_fullband,noise_fullband}
 
 for BLOB in ${BLOB_NAMES[@]}
 do

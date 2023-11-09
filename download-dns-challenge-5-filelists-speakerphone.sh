@@ -16,5 +16,5 @@ echo "Download: $URL"
 curl -s -I "$URL"
 #
 # Actually download the archive - UNCOMMENT it when ready to download
-curl https://dnschallengepublic.blob.core.windows.net/dns5archive/filelists_speakerphone.zip --output 'filelists_speakerphone.zip'
+curl https://dnschallengepublic.blob.core.windows.net/dns5archive/filelists_speakerphone.zip --output 'datasets_fullband/filelists_speakerphone.zip'
 #wget --no-check-certificate "$URL"
